@@ -102,3 +102,74 @@ h1 {
 .menu-item.activo {
   height: 210px;
 }
+
+// * ===============================================
+// * FOOTER
+// * ===============================================
+footer {
+  background: $gris-principal;
+  padding: 20px;
+  .in-footer {
+    @include desktop {
+      width: 1200px;
+      margin: auto;
+    }
+    .footer-top {
+      a {
+        display: block;
+        text-align: center;
+        img {
+          height: 100px;
+        }
+      }
+      .footer-redes {
+        img {
+          height: 50px;
+          margin: 10px 0;
+        }
+        @include tablet {
+          display: flex;
+          justify-content: space-between;
+          img {
+            margin: 0 10px;
+          }
+        }
+      }
+
+      @include tablet {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+    .footer-sep {
+      background: $blanco;
+      height: 2px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    .footer-boot {
+      text-align: center;
+      color: $blanco;
+      a {
+        text-decoration: none;
+        color: $blanco;
+        display: block;
+        margin: 10px 0;
+      }
+      span {
+        padding: 10px;
+        display: block;
+        font-weight: $roboto-bold;
+      }
+      p {
+        margin: 10px 0;
+      }
+      @include tablet {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+    }
+  }
+}
