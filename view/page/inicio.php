@@ -1,15 +1,15 @@
 <!--===============================================
-Imagen index
-=================================================-->
+IMAGEN INDEX
+*=================================================-->
 <div class="img-index"></div>
 
 <!--===============================================
-Servcios Integrales
+SERVCIOS INTEGRALES
 =================================================-->
 <h1>SERVICIOS INTEGRALES</h1>
 
 <section class="serv-integrales">
-  <div class="serv-integrales-in">
+  
     <div class="ser-item">
       <span class="titulo">MANTENIMIENTO</span>
       <img src="view/img/wpf_maintenance.svg" alt="">
@@ -51,12 +51,11 @@ Servcios Integrales
       <div class="serv-txt">
       Estás acciones incluyen la combinación de las acciones técnicas y administrativas correspondientes
       </div>
-    </div>
-  </div>
+    </div>  
 </section>
 
 <!--===============================================
-Sistemas
+SISTEMAS
 =================================================-->
 <section class="sistemas">
   <div class="in-sistemas">
