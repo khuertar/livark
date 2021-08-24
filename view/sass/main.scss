@@ -294,3 +294,323 @@ footer {
     }
   }
 }
+
+// * ===============================================
+// * EMPRESA
+// * ===============================================
+.empresa {
+  .txt-empresa {
+    h2 {
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    .txt {
+      width: 90%;
+      margin: auto;
+      text-align: justify;
+    }
+    img {
+      display: block;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background: $gris-principal;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    //?DESKTOP
+    @include desktop {
+      width: 1200px;
+      margin: auto;
+      h2 {
+        text-align-last: left;
+        padding: 0;
+      }
+      .txt {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        align-items: center;
+        p {
+          width: 75%;
+        }
+      }
+    }
+  }
+}
+
+.separacion-empresa {
+  padding: 1px;
+  background: #000;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  @include desktop {
+    width: 40%;
+    margin-top: 20px;
+  }
+}
+
+//?PRESENTACION
+.presentacion {
+  h2 {
+    text-align: center;
+  }
+  .txt-pre {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: $gris-principal;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  //?DESKTOP
+  @include desktop {
+    width: 1200px;
+    margin: auto;
+    h2 {
+      text-align: right;
+    }
+    .txt-pre {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+      p {
+        width: 75%;
+      }
+    }
+    img {
+      height: 200px;
+    }
+  }
+}
+
+//?POR QUE LIVARK
+.livark {
+  background: #1d1d1b;
+  padding: 20px;
+  margin-bottom: 120px;
+  position: relative;
+  height: 820px;
+  color: $blanco;
+
+  .livark-izq {
+    p {
+      text-align: center;
+      font-size: 25px;
+      color: $blanco;
+    }
+    img {
+      display: block;
+      margin: auto;
+      margin-top: 20px;
+    }
+  }
+  .livark-der {
+    margin-top: 20px;
+    text-align: justify;
+  }
+  .circulo {
+    position: absolute;
+    height: 200px;
+    bottom: -100px;
+    left: calc(50% - 100px);
+  }
+  //tablet
+  @include tablet {
+    height: 620px;
+  }
+  //desktop
+  @include desktop {
+    width: 1200px;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    height: 400px;
+    margin-bottom: 170px;
+    .livark-izq {
+      width: 400px;
+    }
+    .livark-der {
+      width: 761px;
+    }
+    .circulo {
+      position: absolute;
+      height: 250px;
+      bottom: -150px;
+      left: calc(50% + 300px);
+    }
+  }
+}
+
+//?VALORES
+
+.valores {
+  background: $gris;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+  .valores-izq {
+    width: 100%;
+    height: 160px;
+    background-image: url(../img/cabecera2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .valores-der {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    span {
+      display: block;
+      text-align: center;
+      font-weight: $roboto-bold;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+  @include tablet {
+    .valores-izq {
+      height: 250px;
+      background-size: cover;
+    }
+  }
+  @include desktop {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+    .valores-izq {
+      width: 400px;
+      height: 380px;
+      background-size: auto;
+      background-position: center;
+    }
+    .valores-der {
+      margin: 0;
+      span {
+        display: block;
+        text-align: left;
+        font-weight: $roboto-bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+//?MAGNAMET
+.magnament {
+  width: 92%;
+  margin: auto;
+  padding: 10px;
+  h2 {
+    text-align: center;
+  }
+  .in-magnament {
+    .in-magnament-txt {
+      margin-top: 20px;
+      p {
+        text-align: center;
+        font-weight: $roboto-bold;
+      }
+      ul {
+        width: 100px;
+        margin: auto;
+        margin-top: 20px;
+        li {
+          text-align: center;
+        }
+      }
+    }
+    .in-magnament-img {
+      background: #000;
+      border-radius: 5px;
+      background-image: url(../img/magnament.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 200px;
+      margin-top: 20px;
+    }
+  }
+  .magnament-txt {
+    margin-top: 20px;
+    text-align: justify;
+  }
+
+  @include tablet {
+    .in-magnament {
+      display: flex;
+      justify-content: space-between;
+      .in-magnament-img {
+        width: 70%;
+      }
+    }
+  }
+
+  @include desktop {
+    width: 1000px;
+    .in-magnament {
+      .in-magnament-txt {
+        width: 300px;
+      }
+    }
+  }
+}
+
+//?TESTIMONIALES
+.testimoniales {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  h2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .carrusel {
+    margin-top: 20px;
+    .item {
+      width: 100%;
+      background: $gris;
+      height: 320px;
+      border-radius: 5px;
+      padding: 20px;
+      .testimonial--item-cara {
+        width: 130px;
+        height: 130px;
+        background-image: url(../img/cara.jpg);
+        border-radius: 50%;
+        background-position: center;
+        margin: auto;
+      }
+      span {
+        display: block;
+        text-align: center;
+        font-weight: $roboto-bold;
+        padding: 10px;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  @include desktop {
+    width: 800px;
+  }
+}
