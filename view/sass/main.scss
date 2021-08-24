@@ -656,3 +656,129 @@ footer {
     }
   }
 }
+
+// * ===============================================
+// * CONTACTO
+// * ===============================================
+.contacto {
+  width: 95%;
+  margin: auto;
+  background: linear-gradient(to right, #009fff, #ec2f4b);
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  @include desktop {
+    padding: 5px;
+  }
+
+  .marco {
+    background: $gris;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+
+    h2 {
+      text-align: center;
+    }
+
+    .contacto-formulario {
+      span {
+        display: block;
+        font-weight: $roboto-bold;
+        padding: 5px 0;
+      }
+      input[type='text'],
+      input[type='email'] {
+        width: 100%;
+        padding: 5px 5px;
+        margin-bottom: 10px;
+        border: 2px solid transparent;
+        transition: all 0.5s;
+        border-radius: 5px;
+        height: 40px;
+        &:focus,
+        &:active {
+          outline: none;
+          border: 2px solid $gris-principal;
+        }
+      }
+
+      textarea {
+        resize: none;
+        display: block;
+        width: 100%;
+        border: 0;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        outline: none;
+        padding: 5px;
+        &:focus,
+        &:active {
+          outline: none;
+          border: 2px solid $gris-principal;
+        }
+      }
+      input[type='submit'] {
+        display: block;
+        margin: auto;
+        width: 140px;
+        padding: 10px;
+        background: #495464;
+        border: none;
+        border-radius: 5px;
+        color: $blanco;
+        box-shadow: 4px 4px 4px #2e353f;
+        font-weight: $roboto-bold;
+      }
+    }
+  }
+
+  @include tablet {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  @include desktop {
+    width: 700px;
+  }
+}
+
+// * ===============================================
+// * MENSAJE
+// * ===============================================
+.mensaje {
+  width: 90%;
+  margin: auto;
+  img {
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  h3 {
+    text-align: center;
+  }
+  a {
+    background: $gris-principal;
+    color: $blanco;
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  @include desktop {
+    img {
+      height: 250px;
+    }
+  }
+}
