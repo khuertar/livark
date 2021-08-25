@@ -200,10 +200,6 @@ footer {
   grid-template-columns: repeat(1, 1fr);
   grid-row-gap: 20px;
   justify-content: center;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-row-gap: 20px;
-  justify-content: center;
   @include tablet {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
@@ -620,7 +616,7 @@ footer {
 // * ===============================================
 .error {
   margin-bottom: 20px;
-  h1,
+  h2,
   h3 {
     text-align: center;
   }
@@ -779,6 +775,108 @@ footer {
   @include desktop {
     img {
       height: 250px;
+    }
+  }
+}
+
+// * ===============================================
+// * PROYECTOS
+// * ===============================================
+.proyectos {
+  .show-project {
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    //?IMAGENES
+    figure {
+      border-radius: 5px;
+      @include tablet {
+        width: 300px;
+      }
+    }
+    img {
+      height: 200px;
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+    }
+    @include desktop {
+      grid-template-columns: repeat(3, 1fr);
+      width: 1000px;
+    }
+  }
+}
+
+// * ===============================================
+// * MOSTRAR PROYECTOS
+// * ===============================================
+.proyect {
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .proyect--contenido {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    background: $gris-principal;
+    border-radius: 5px;
+    padding: 15px;
+    color: $blanco;
+    text-align: justify;
+    @include desktop {
+      width: 1000px;
+    }
+  }
+  .proyect--img {
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    img {
+      display: block;
+      margin: auto;
+      width: 300px;
+      height: 180px;
+      border-radius: 5px;
+      box-shadow: 4px 4px 10px $gris-principal;
+    }
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+    }
+    @include desktop {
+      grid-template-columns: repeat(3, 1fr);
+      width: 1000px;
+    }
+  }
+  .btn-back {
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: $gris-secundario;
+    color: $blanco;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    &:hover {
+      background: $gris-principal;
     }
   }
 }
