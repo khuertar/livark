@@ -128,31 +128,31 @@ Testimoniales
   <h2>TESTIMONIALES</h2>
   <div class="owl-carousel owl-theme carrusel">
     <div class="item">
-      <div class="testimonial--item-cara"></div>
-      <span>Juan Perez <br> Ceo - La Poblana</span>
+      <div class="testimonial--item-cara" id="img1"></div>
+      <span>Manuel Ramírez <br> Ceo - Ignilytic</span>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates officiis tenetur delectus? Provident hic asperiores ab, cupiditate in nemo neque necessitatibus reiciendis, repudiandae possimus, quae error minima sit maxime assumenda.
+        Hemos colaborado con Livark en proyectos tecnológicos para la adecuación de Site, cableado estructurado  y remodelación de oficinas.
       </p>
     </div>
     <div class="item">
-      <div class="testimonial--item-cara"></div>
-      <span>Juan Perez <br> Ceo - La Poblana</span>
+      <div class="testimonial--item-cara" id="img2"></div>
+      <span>Sutlalzin Ríos <br> Ceo - Beenektli</span>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates officiis tenetur delectus? Provident hic asperiores ab, cupiditate in nemo neque necessitatibus reiciendis, repudiandae possimus, quae error minima sit maxime assumenda.
+        Trabajamos con Livark para el diseño de nuestra tienda en Zacatecas, diseño innovador y minimalista, gran compromiso y detalle.
       </p>
     </div>
     <div class="item">
-      <div class="testimonial--item-cara"></div>
-      <span>Juan Perez <br> Ceo - La Poblana</span>
+      <div class="testimonial--item-cara" id="img3"></div>
+      <span>Fernando Situk <br> Ceo - Allstacks</span>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates officiis tenetur delectus? Provident hic asperiores ab, cupiditate in nemo neque necessitatibus reiciendis, repudiandae possimus, quae error minima sit maxime assumenda.
+        Remodelación completa de nuestras oficinas en Cancún, nos ayudó a mejorar la confianza de nuestros clientes y socios .
       </p>
     </div>
     <div class="item">
-      <div class="testimonial--item-cara"></div>
-      <span>Juan Perez <br> Ceo - La Poblana</span>
+      <div class="testimonial--item-cara" id="img4"></div>
+      <span>Sebastian Fragoso <br> Ceo - Leningron</span>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates officiis tenetur delectus? Provident hic asperiores ab, cupiditate in nemo neque necessitatibus reiciendis, repudiandae possimus, quae error minima sit maxime assumenda.
+        Expansión de nuestro negocio, creamos nuevos andenes para la recepción  y distribución  de materias primas para la industria alimenticia, mayor espacio y seguridad para nuestros  transportes.
       </p>
     </div>
       

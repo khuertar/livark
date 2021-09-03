@@ -587,12 +587,25 @@ footer {
       border-radius: 5px;
       padding: 20px;
       .testimonial--item-cara {
-        width: 130px;
-        height: 130px;
-        background-image: url(../img/cara.jpg);
-        border-radius: 50%;
         background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        height: 130px;
         margin: auto;
+        width: 130px;
+      }
+      #img1 {
+        background-image: url(../img/manuel.jpg);
+      }
+      #img2 {
+        background-image: url(../img/su.jpg);
+      }
+      #img3 {
+        background-image: url(../img/iran.jpg);
+      }
+      #img4 {
+        background-image: url(../img/sebas.jpg);
       }
       span {
         display: block;
