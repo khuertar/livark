@@ -35,7 +35,7 @@ Footer
         <div class="contenido">
           <p>Lunes - Viernes: 9AM - 6PM</p>
           <p>Sábado - Domingo: Cerrado</p>
-          <p>Teléfono: 00-000-000</p>
+          <p>Teléfono: 55-3201-4741</p>
           <p>Correo: contacto@livark.com.mx</p>
         </div>
       </div>
