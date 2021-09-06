@@ -837,19 +837,6 @@ footer {
     text-align: center;
     margin-top: 20px;
   }
-  .proyect--contenido {
-    width: 95%;
-    margin: auto;
-    margin-top: 20px;
-    background: $gris-principal;
-    border-radius: 5px;
-    padding: 15px;
-    color: $blanco;
-    text-align: justify;
-    @include desktop {
-      width: 1000px;
-    }
-  }
   .proyect--img {
     margin: auto;
     margin-top: 20px;

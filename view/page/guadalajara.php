@@ -3,11 +3,6 @@ LOGITECH
 =================================================-->
 <sectio class="proyect">
   <h2>Areopuerto Guadalajara</h2>
-  <div class="proyect--contenido">
-    <p>
-    Propuesta de fachada realizada en el Aeropuerto de Guadalajara con Éxito.
-    </p>
-  </div>
   <div class="proyect--img">
     <a href="view/img/img-proyectos/aerogua/GDL1.jpg" data-lightbox="fotos" data-title="guadalajara">
       <img src="view/img/img-proyectos/aerogua/GDL1.jpg" alt="foto">

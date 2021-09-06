@@ -2,16 +2,7 @@
 LOGITECH
 =================================================-->
 <sectio class="proyect">
-  <h2>Hikvision</h2>
-  <div class="proyect--contenido">
-    <p>
-    Estos Proyectos totalmente personalizados al requerimiento de nuestros clientes.
-    <br><br>
-    Nuestras propuesta de calidad incluye la planta arquitectónica y renders para una mejor visualización del proyecto a ejecutar.
-    <br><br>
-    Dando así un seguimiento adecuado, profesional y persoxnalizado para cada uno de ellos.
-    </p>
-  </div>
+  <h2>Hikvision</h2>  
   <div class="proyect--img">
     <a href="view/img/img-proyectos/hickvision/HIKVISION1.jpg" data-lightbox="fotos" data-title="hikvision">
       <img src="view/img/img-proyectos/hickvision/HIKVISION1.jpg" alt="foto">
