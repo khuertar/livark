@@ -53,7 +53,15 @@
         $_GET["url"] == "stefanini" ||
         $_GET["url"] == "piu" ||
         $_GET["url"] == "bancomer" ||
-        $_GET["url"] == "banregio" ||        
+        $_GET["url"] == "banregio" ||
+        $_GET["url"] == "addinteli" ||
+        $_GET["url"] == "salmon" ||
+        $_GET["url"] == "tijuana" ||
+        $_GET["url"] == "tlalpan" ||
+        $_GET["url"] == "cotton" ||
+        $_GET["url"] == "luna" ||
+        $_GET["url"] == "systemi" ||
+        $_GET["url"] == "system-logistic" ||
         $_GET["url"] == "contacto"      
       ){
 
