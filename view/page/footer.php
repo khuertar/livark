@@ -18,7 +18,7 @@ Footer
       <div class="footer-boot-item">
         <span>Links Extras</span>
           <div class="contenido">
-            <a href="#">Politica de privacidad</a>
+            <a href="politicas">Politica de privacidad</a>
         </div>
       </div>
       <div class="footer-boot-item">

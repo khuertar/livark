@@ -21,7 +21,7 @@
   =================================================-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
-  <script src="view/js/lightbox.min.js" ></script>
+  <script src="view/js/lightbox.min.js" ></script> 
   
   <title>Document</title>
 </head>
@@ -62,6 +62,7 @@
         $_GET["url"] == "luna" ||
         $_GET["url"] == "systemi" ||
         $_GET["url"] == "system-logistic" ||
+        $_GET["url"] == "politicas" ||
         $_GET["url"] == "contacto"      
       ){
 

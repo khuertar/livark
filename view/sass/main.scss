@@ -880,3 +880,53 @@ footer {
     }
   }
 }
+
+// * ===============================================
+// * POLITICAS
+// * ===============================================
+.politicas {
+  margin: auto;
+  padding: 5px;
+  width: 95%;
+  @include desktop {
+    width: 1000px;
+  }
+
+  .jumbotron {
+    background: $gris;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  p {
+    text-align: justify;
+    padding: 5px;
+    line-height: 25px;
+  }
+
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .navegar {
+    padding: 5px;
+    line-height: 25px;
+  }
+  .btn-back {
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: $gris-secundario;
+    color: $blanco;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    &:hover {
+      background: $gris-principal;
+    }
+  }
+}
