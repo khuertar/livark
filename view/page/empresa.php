@@ -138,7 +138,7 @@ Testimoniales
       <div class="testimonial--item-cara" id="img2"></div>
       <span>Sutlalzin Ríos <br> Ceo - Beenektli</span>
       <p>
-        Trabajamos con Livark para el diseño de nuestra tienda en Zacatecas, diseño innovador y minimalista, gran compromiso y detalle.
+        Trabajamos con Livark para el diseño de nuestra tienda, diseño innovador y minimalista, gran compromiso y detalle.
       </p>
     </div>
     <div class="item">
