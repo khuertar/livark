@@ -930,3 +930,109 @@ footer {
     }
   }
 }
+
+// * ===============================================
+// * COOKIES
+// * ===============================================
+.cookie{
+  display: none;
+  background: $blanco;
+  padding: 20px;
+  width: calc(100% - 40px);
+  max-width: 300px;
+  line-height: 150%;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 100;
+  padding-top: 60px;
+  box-shadow: 0px 2px 20px 10px rgb(222, 222, 222,.25);
+  text-align: center;
+  .galleta{
+    max-width: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  .titulo,.parrafo{
+    margin-bottom: 15px;
+  }
+
+  .boton{
+    width: 100%;
+    background: #595959;
+    border: none;
+    color: $blanco;
+    text-align: center;
+    padding: 15px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    &:hover{
+      background: $negro;
+    }
+  }
+
+  .aviso{
+    color: $azul;
+    text-decoration:none;
+    font-size: 14px;    
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  
+}
+
+.cookie.activo{
+  display: block;
+}
+
+.fondo-cookie{
+  display: none;
+  background: rgba(0,0,0,.20);
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.fondo-cookie.activo{
+  display: block;
+}
+
+// * ===============================================
+// * Pagina Cookies
+// * ===============================================
+.aviso-cookies{
+  background: $gris;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 95%;
+  line-height: 150%;
+  @include desktop{
+    width: 1000px;
+  }
+  .link{
+    color: $azul;
+    font-size: 20px;
+    font-weight: 700;    
+  }
+
+  .titulo{
+    margin: 20px 0;
+  }
+
+  .parrafo{
+    margin: 10px 0;
+  }
+}

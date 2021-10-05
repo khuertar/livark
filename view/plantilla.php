@@ -63,7 +63,8 @@
         $_GET["url"] == "systemi" ||
         $_GET["url"] == "system-logistic" ||
         $_GET["url"] == "politicas" ||
-        $_GET["url"] == "contacto"      
+        $_GET["url"] == "contacto" ||
+        $_GET["url"] == "aviso-cookies"
       ){
 
         include "page/".$_GET["url"].".php";
@@ -78,6 +79,7 @@
         include "page/inicio.php";    
     }       
 
+    include 'page/cookie.php';
     include 'page/footer.php';
     
   ?>   
