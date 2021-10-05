@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Arquitectura, Construccion, Especializado">
+  <meta name="keyword" content="Web, Mexico, Dinamicas,  Hogar, Creativo, Diseño, Sistemas, Confiables, Economicas, Estables">
+  <meta name="author" content="http://www.ignilytic.com/">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="icon" href="view/img/logo_blanco.svg">
   <!--===============================================
