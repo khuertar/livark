@@ -19,7 +19,7 @@ try {
 
     //Recipients
     $mail->setFrom($correo, $nombre);
-    $mail->addAddress('m.ramirez@ignilytic.com', 'Livark');     //Add a recipient   
+    $mail->addAddress('sergio.garcia@livark.com.mx', 'Livark');     //Add a recipient   
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
